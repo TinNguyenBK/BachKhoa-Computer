@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Pattaya;
+    src: url(../bootstrap-4.3.1-dist/Font/Pattaya-Regular.ttf);
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    overflow-x: hidden;
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+li a:hover {
+    color: #666666;
+}
+
+li #desktop-icon {
+    background-image: url('/Public/images/PC-product/icon-desktop.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0 5px;
+    padding-left: 15px;
+}
+
+li #pcs-icon {
+    background-image: url('./Public/images/PC-product/PCs/icon-pc.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0 5px;
+    padding-left: 15px;
+}
+
+li #cpu-icon {
+    background-image: url('./Public/images/PC-product/icon-cpu.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0 5px;
+    padding-left: 15px;
+}
+
+li #ram-icon {
+    background-image: url('../Public/images/PC-product/icon-ram.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0 5px;
+    padding-left: 15px;
+}
+
+li #ocung-icon {
+    background-image: url('../Public/images/PC-product/icon-ocung.png');
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 0 5px;
+    padding-left: 15px;
+}
+
+.banner {
+    opacity: 1;
+    display: block;
+    backface-visibility: hidden;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.banner:hover img {
+    overflow: hidden !important;
+    opacity: 0.5;
+    transition: 2s;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.old-price {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.sale {
+    display: block;
+}
+
+.sale a{
+    text-decoration: none !important;
+}
+
+.sale h6:hover{
+    color: #008744 ;
+}
+
+.catagories-menu a {
+    text-decoration: none !important;
+    color: #0363cd;
+}
+
+.catagories-menu a:hover {
+    color: #008744;
+}
+
+.item .stars {
+    font-size: 10px;
+}
+.checked{
+    color: orange;
+}
+
+.sale h6 {
+    color: #0363cd;
+    font-weight: 500;
+}
+
+.product-price b{
+    color: #008744;
+}
+
+.product-topbar {
+    background-color: #189EFF;
+    font-size: 14px;
+    color: white;
+    padding: 0px 15px;
+    text-decoration: none;
+}
+
+.cover {
+    padding-left: 0px !important;
+    border: none;
+    border-bottom: solid 3px #189EFF;
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
